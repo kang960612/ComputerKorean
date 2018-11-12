@@ -19,13 +19,6 @@ function draw() {
     fill(r,g,b);
     bugs[i].display();
   }
-  /*
-  if ( mouseX >= bugs[i].x && mouseX <= bugs[i].x + bugs[i].w &&
-    mouseY >= bugs[i].y && mouseY <= bugs[i].y + bugs[i].h) {
-    x += random(-5, 5);
-    y += random(-5, 5);
-  }
-  */
 }
 
 function Jitter() {
